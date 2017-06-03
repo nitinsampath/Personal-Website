@@ -1,0 +1,202 @@
+html,
+body {
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #333;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+#stage {
+    background-image: linear-gradient( rgba(0,0,0,.2), rgba(0,0,0,.2) ), url('berkeley-background.jpg');
+    background-size: cover;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#stage-caption {
+    font-weight: 200;
+    max-width: 70rem;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#stage-caption h1 { 
+    color: white;
+    font-size: 4.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#stage-caption h3 { 
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#about{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-color: #2B2B2B;
+    margin-bottom: 3em;
+}
+
+.about-content h1, h2, h3, h4{
+    color: white;
+}
+
+.about-content p{
+    color: #A1A1A1;
+    font-size: 1.1em;
+    line-height: 170%;
+}
+
+#headshot img{
+    max-width: 17rem;
+    border-radius: 50%;
+}
+
+.section-title{
+    color: #313131;
+    font-weight: bold;
+    max-width: 70%;
+    padding-bottom: 6px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+
+
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+  
+}
+
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+  font-size: 1.2em;
+}
+
+#contact-info a {
+    transition: 0.3s;
+    color: #A1A1A1;
+    text-decoration: underline;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+    font-size: 1.2em;
+}
+
+#contact-info a:hover{
+    color: white;
+    transition: 0.3s;
+}
+
+.content-title {
+    color: #313131;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+u {
+    text-decoration: none;
+    border-bottom: 3px solid #11ABB0;
+}
+
+.content-description {
+    color: #313131;
+    font-size: 20px;
+    letter-spacing: 1px;
+    
+}
+
+.content-info {
+    color: #838C95;
+    font-size: 16px;
+    line-height: 1.8em;
+}
+
+.content-info li {
+    margin-bottom: 2px;
+}
+
+#experience-info {
+    line-height: 1.7em;
+}
+
+#projects {
+    background-color: #EBEEEE;
+    padding-top: 3em;
+}
+
+#projects img{
+    max-width: 20em;
+    max-height: 20em;
+    transition: 0.5s;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#projects img:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.project-title {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.project-description {
+    max-width: 25em;
+}
+
+.progress .progress-bar {
+    -moz-animation-name: animateBar;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease-in;
+    -moz-animation-duration: 1s;
+
+    -webkit-animation-name: animateBar;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-duration: 1s;
+
+    animation-name: animateBar;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+}
+
+@-moz-keyframes animateBar {
+    0% {-moz-transform: translateX(-100%);}
+    100% {-moz-transform: translateX(0);}
+}
+@-webkit-keyframes animateBar {
+    0% {-webkit-transform: translateX(-100%);}
+    100% {-webkit-transform: translateX(0);}
+}
+@keyframes animateBar {
+    0% {transform: translateX(-100%);}
+    100% {transform: translateX(0);}
+}
